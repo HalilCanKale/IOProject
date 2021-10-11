@@ -1,4 +1,7 @@
-package com.spart.io.Controller;
+package com.spart.io.View;
+import com.spart.io.Controller.DuplicateScan;
+import com.spart.io.Controller.EmployeeGenerator;
+import com.spart.io.Controller.JDBCDriver;
 import com.spart.io.Model.Employee;
 import com.spart.io.Model.Regex;
 
@@ -29,8 +32,8 @@ public class IOMain {
                 }
             }
             DuplicateScan.duplicateDetection(records,special);
-            System.out.println(records.size());
-            System.out.println(special.size());
+            System.out.println("Clean Records: "+records.size());
+            System.out.println("Duplicate Records: "+special.size());
             JDBCDriver.JDBC(records);
         } catch (IOException | NullPointerException e) {
             e.printStackTrace();

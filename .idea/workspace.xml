@@ -5,21 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="030fe6e8-746a-430e-a68b-7a86cee2ca83" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/RegexTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Employee.db" beforeDir="false" afterPath="$PROJECT_DIR$/Employee.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spart/io/Controller/IOMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spart/io/Controller/IOMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spart/io/Controller/Regex.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spart/io/Model/Regex.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spart/io/Model/Regex.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spart/io/View/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spart/io/View/MainPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/DAOTEST.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ReaderTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/spart/io/Controller/IOMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spart/io/Controller/IOMain.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/spart/io/Controller/Regex.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/spart/io/Model/Regex.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spart/io/Model/Regex.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ReaderTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/spart/io/Controller/DAOTEST.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spart/io/Controller/IOMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spart/io/View/IOMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spart/io/View/MainPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spart/io/Controller/IOMain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spart/io/View/MainPage.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,22 +63,25 @@
       <recent name="com.spart.io.Controller" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.RegexTest">
+  <component name="RunManager" selected="Application.IOMain">
+    <configuration name="IOMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.spart.io.View.IOMain" />
+      <module name="ProjectIO2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.spart.io.View.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RegexTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ProjectIO2" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="RegexTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RegexTest.Email" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ProjectIO2" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="RegexTest" />
-      <option name="METHOD_NAME" value="Email" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -124,11 +118,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.IOMain" />
         <item itemvalue="JUnit.RegexTest" />
         <item itemvalue="JUnit.RegexTest.prefix" />
         <item itemvalue="JUnit.RegexTest.lastName" />
         <item itemvalue="JUnit.RegexTest.Gender" />
-        <item itemvalue="JUnit.RegexTest.Email" />
       </list>
     </recent_temporary>
   </component>
