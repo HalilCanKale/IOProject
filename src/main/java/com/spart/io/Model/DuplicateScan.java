@@ -12,6 +12,5 @@ public class DuplicateScan {
         records.addAll(originalRec);
         special.addAll(originalRec);
         special.removeAll(set);
-        System.out.println(set.size());
     }
 }

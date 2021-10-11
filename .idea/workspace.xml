@@ -5,25 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="030fe6e8-746a-430e-a68b-7a86cee2ca83" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Employee.db" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/spart/io/Controller/CRUD.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/spart/io/Controller/Connector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/spart/io/Controller/DAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/spart/io/Controller/DAODriver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/spart/io/Controller/DateTime.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/spart/io/Controller/JDBCDriver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/spart/io/Controller/Regex.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/DAOTEST.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spart/io/Model/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spart/io/Model/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spart/io/View/IOMain.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ReaderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ReaderTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/spart/io/Model/Employee.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spart/io/Model/Employee.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/spart/io/View/IOMain.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ReaderTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ReaderTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Employee.db" beforeDir="false" afterPath="$PROJECT_DIR$/Employee.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spart/io/Controller/CRUD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spart/io/Controller/CRUD.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spart/io/Controller/DAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spart/io/Controller/DAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spart/io/Controller/DAODriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spart/io/Controller/DAODriver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spart/io/Controller/DateTime.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spart/io/Model/DateTime.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spart/io/Model/DateTime.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spart/io/Model/DuplicateScan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spart/io/Model/DuplicateScan.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spart/io/Model/IOMain.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spart/io/Model/Regex.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spart/io/Model/Regex.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spart/io/Controller/CRUD.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spart/io/Controller/CRUD.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spart/io/Controller/DAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spart/io/Controller/DAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spart/io/Controller/DAODriver.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spart/io/Controller/DAODriver.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spart/io/Model/DateTime.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spart/io/Model/DateTime.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spart/io/Model/DuplicateScan.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spart/io/Model/DuplicateScan.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spart/io/Model/Regex.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spart/io/Model/Regex.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,8 +69,11 @@
       <recent name="C:\Users\HALIL\Desktop\ProjectIO2" />
       <recent name="C:\Users\HALIL\IdeaProjects\ProjectIO2" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.spart.io.Controller" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.DAODriver">
+  <component name="RunManager" selected="Application.IOMain">
     <configuration name="DAODriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.spart.io.Controller.DAODriver" />
       <module name="ProjectIO2" />
@@ -111,8 +111,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.DAODriver" />
         <item itemvalue="Application.IOMain" />
+        <item itemvalue="Application.DAODriver" />
         <item itemvalue="JUnit.ReaderTest" />
       </list>
     </recent_temporary>

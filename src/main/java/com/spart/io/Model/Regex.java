@@ -1,6 +1,6 @@
 package com.spart.io.Model;
 
-import java.util.Date;
+import java.sql.Date;
 
 public class Regex {
 
@@ -13,7 +13,7 @@ public class Regex {
         String lName = data[4];
         String gen = data[5];
         String email = data[6];
-        Date dob = DateTime.formatDate(data[7]);
+        java.sql.Date dob = DateTime.formatDate(data[7]);
         Date doj = DateTime.formatDate(data[8]);
         int salary = Integer.parseInt(data[9]);
 

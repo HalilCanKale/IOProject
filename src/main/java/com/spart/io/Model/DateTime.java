@@ -1,6 +1,6 @@
 package com.spart.io.Model;
 
-import java.util.Date;
+import java.sql.Date;
 
 public class DateTime {
 
