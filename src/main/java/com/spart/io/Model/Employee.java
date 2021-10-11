@@ -1,22 +1,23 @@
 package com.spart.io.Model;
 
-import java.util.Date;
+import java.sql.Date;
+import java.util.Objects;
 //Emp ID,Name Prefix,First Name,Middle Initial,Last Name,Gender,E Mail,Date of Birth,Date of Joining,Salary
 
 public class Employee {
     private int empID;
     private String namePrefix;
     private String fName;
-    private char middleInitial;
+    private String middleInitial;
     private String lName;
-    private boolean gender;
+    private String gender;
     private String email;
     private Date dob;
     private Date doj;
     private int salary;
 
-    public Employee(int empID, String namePrefix, String fName, char middleInitial, String lName,
-                    boolean gender, String email, Date dob, Date doj, int salary)
+    public Employee(int empID, String namePrefix, String fName, String middleInitial, String lName,
+                    String gender, String email, Date dob, Date doj, int salary)
     {
         this.empID = empID;
         this.namePrefix = namePrefix;
@@ -28,6 +29,10 @@ public class Employee {
         this.dob = dob;
         this.doj = doj;
         this.salary = salary;
+    }
+
+    public Employee() {
+
     }
 
     public int getEmpID() {
@@ -54,11 +59,11 @@ public class Employee {
         this.fName = fName;
     }
 
-    public char getMiddleInitial() {
+    public String getMiddleInitial() {
         return middleInitial;
     }
 
-    public void setMiddleInitial(char middleInitial) {
+    public void setMiddleInitial(String middleInitial) {
         this.middleInitial = middleInitial;
     }
 
@@ -70,11 +75,11 @@ public class Employee {
         this.lName = lName;
     }
 
-    public boolean isGender() {
+    public String getGender() {
         return gender;
     }
 
-    public void setGender(boolean gender) {
+    public void setGender(String gender) {
         this.gender = gender;
     }
 
@@ -110,5 +115,32 @@ public class Employee {
         this.salary = salary;
     }
 
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Employee employee = (Employee) o;
+        return empID == employee.empID;
+    }
 
+    @Override
+    public int hashCode() {
+        return Objects.hash(empID);
+    }
+
+    @Override
+    public String toString() {
+        return "Employee{" +
+                "empID=" + empID +
+                ", namePrefix='" + namePrefix + '\'' +
+                ", fName='" + fName + '\'' +
+                ", middleInitial='" + middleInitial + '\'' +
+                ", lName='" + lName + '\'' +
+                ", gender='" + gender + '\'' +
+                ", email='" + email + '\'' +
+                ", dob=" + dob +
+                ", doj=" + doj +
+                ", salary=" + salary +
+                '}';
+    }
 }

@@ -1,3 +1,4 @@
+import com.spart.io.Controller.Regex;
 import com.spart.io.Model.Employee;
 import org.junit.jupiter.api.Test;
 
@@ -10,9 +11,6 @@ import static java.lang.System.in;
 public class ReaderTest {
     @Test
     public void employeeData(){
-        Employee tester= new Employee();
-        tester.setlName("Halil");
-        System.out.println(tester.getfName());
 
     }
 }
