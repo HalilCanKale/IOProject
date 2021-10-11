@@ -20,7 +20,7 @@ public class Regex {
         if (!(id >= 0)) res = false;
         if (!prefix.matches("^[A-Z][a-z]{1,5}[.]$")) res = false;
         if (!fName.matches(("^[A-Z][-a-zA-Z]+$"))) res = false;
-        if (!mName.matches("[a-zA-Z]+")) res = false;
+        if (!mName.matches("[A-Z]")) res = false;
         if (!lName.matches("^[A-Z][-a-zA-Z]+$")) res = false;
         if (!gen.matches(("^[F|M]$"))) res = false;
         if (!email.matches("^(.+)@(.+)$")) res = false;

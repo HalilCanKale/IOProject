@@ -5,22 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="030fe6e8-746a-430e-a68b-7a86cee2ca83" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/RegexTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Employee.db" beforeDir="false" afterPath="$PROJECT_DIR$/Employee.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spart/io/Controller/CRUD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spart/io/Controller/CRUD.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spart/io/Controller/DAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spart/io/Controller/DAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spart/io/Controller/DAODriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spart/io/Controller/DAODriver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spart/io/Controller/DateTime.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spart/io/Model/DateTime.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spart/io/Model/DateTime.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spart/io/Model/DuplicateScan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spart/io/Model/DuplicateScan.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spart/io/Model/IOMain.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spart/io/Controller/IOMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spart/io/Controller/IOMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spart/io/Controller/Regex.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/spart/io/Model/Regex.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spart/io/Model/Regex.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/spart/io/Controller/CRUD.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spart/io/Controller/CRUD.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/spart/io/Controller/DAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spart/io/Controller/DAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/spart/io/Controller/DAODriver.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spart/io/Controller/DAODriver.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/spart/io/Model/DateTime.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spart/io/Model/DateTime.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/spart/io/Model/DuplicateScan.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spart/io/Model/DuplicateScan.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spart/io/View/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spart/io/View/MainPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/DAOTEST.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ReaderTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spart/io/Controller/IOMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spart/io/Controller/IOMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spart/io/Controller/Regex.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/spart/io/Model/Regex.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spart/io/Model/Regex.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ReaderTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/spart/io/Controller/DAOTEST.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,47 +72,63 @@
       <recent name="com.spart.io.Controller" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.IOMain">
-    <configuration name="DAODriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.spart.io.Controller.DAODriver" />
-      <module name="ProjectIO2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.spart.io.Controller.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="IOMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.spart.io.Controller.IOMain" />
-      <module name="ProjectIO2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.spart.io.Controller.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ReaderTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.RegexTest">
+    <configuration name="RegexTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ProjectIO2" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ReaderTest" />
+      <option name="MAIN_CLASS_NAME" value="RegexTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RegexTest.Email" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ProjectIO2" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RegexTest" />
+      <option name="METHOD_NAME" value="Email" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RegexTest.Gender" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ProjectIO2" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RegexTest" />
+      <option name="METHOD_NAME" value="Gender" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RegexTest.lastName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ProjectIO2" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RegexTest" />
+      <option name="METHOD_NAME" value="lastName" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RegexTest.prefix" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ProjectIO2" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RegexTest" />
+      <option name="METHOD_NAME" value="prefix" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.IOMain" />
-        <item itemvalue="Application.DAODriver" />
-        <item itemvalue="JUnit.ReaderTest" />
+        <item itemvalue="JUnit.RegexTest" />
+        <item itemvalue="JUnit.RegexTest.prefix" />
+        <item itemvalue="JUnit.RegexTest.lastName" />
+        <item itemvalue="JUnit.RegexTest.Gender" />
+        <item itemvalue="JUnit.RegexTest.Email" />
       </list>
     </recent_temporary>
   </component>
@@ -148,9 +163,15 @@
     <select />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/ProjectIO2$RegexTest_Gender.ic" NAME="RegexTest.Gender Coverage Results" MODIFIED="1633925100238" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/ProjectIO2$RegexTest_prefix.ic" NAME="RegexTest.prefix Coverage Results" MODIFIED="1633925155099" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/ProjectIO2$RegexTest.ic" NAME="RegexTest Coverage Results" MODIFIED="1633925755286" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/ProjectIO2$ReaderTest.ic" NAME="ReaderTest Coverage Results" MODIFIED="1633429370842" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/ProjectIO2$IOMain.ic" NAME="IOMain Coverage Results" MODIFIED="1633870089029" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>com.spart.io.Model.*</FILTER>
+    <SUITE FILE_PATH="coverage/ProjectIO2$RegexTest_lastName.ic" NAME="RegexTest.lastName Coverage Results" MODIFIED="1633925126883" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/ProjectIO2$RegexTest_Email.ic" NAME="RegexTest.Email Coverage Results" MODIFIED="1633925085280" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/ProjectIO2$IOMain.ic" NAME="IOMain Coverage Results" MODIFIED="1633924502760" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.spart.io.Controller.*</FILTER>
     </SUITE>
+    <SUITE FILE_PATH="coverage/ProjectIO2$RegexTest_Regexing.ic" NAME="RegexTest$Regexing Coverage Results" MODIFIED="1633924624437" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
