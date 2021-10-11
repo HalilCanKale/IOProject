@@ -1,6 +1,6 @@
 package com.spart.io.Controller;
 
-import com.spart.io.Controller.DateTime;
+import com.spart.io.Model.DateTime;
 import com.spart.io.Model.Employee;
 
 import java.sql.Date;
